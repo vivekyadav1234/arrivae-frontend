@@ -1,0 +1,103 @@
+body {
+    background-color: #fff;
+    font-family: 'Roboto',arial,sans-serif;
+    color: #545454;
+}
+.nav li {
+   display: inline-block;
+   padding: 5px 5px;
+   color: #545454;
+
+   
+}
+.navbar-form  {
+   display: inline-block;
+   padding: 5px 5px;
+   margin-right:18px;
+   color: #545454;
+}
+.navbar-nav  li{
+  margin-left:18px;
+  color: #545454;
+}
+ 
+.container-fluid {
+      
+      margin-top:51px;
+}
+   
+.h1{
+      font-size: 30px;
+  }
+.bg-color{
+ background-color: #f6f6f6;
+ 
+}
+.content-image-swap--image{
+    margin-top: 80px;
+}
+.content-heading{
+    margin-top: 128px;
+    padding: 10px;
+    
+}
+.icon-copy-grid--item {
+    padding: 0 16.98% 50px 0;
+}
+.icon-copy-grid--item-title {
+    color: #414141;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 26px;
+    margin: 0 0 20px 0;
+}
+.hero-fb--title__has-icon {
+    display: flex;
+    position: relative;
+}
+.align{
+    margin-top:20%;
+}
+.align1{
+    margin-top: 35%;
+}
+.content-swap  {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 50px 0;
+}
+  .content-image-swap--small {
+    margin-top: 60px;
+}
+.content-image-swap--small {
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+p {
+    margin: 0 0 25px 0;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.content-image-swap--content {
+    padding-right: 3.5%;
+}
+.page--full {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.page--full, .header {
+    padding-left: 37px;
+    padding-right: 59px;
+}
+.hero-fb--bullet{
+    font-size: 14px;
+}
+.page--full1, .header {
+    padding-left: 37px;
+    padding-right: 80px;
+}
+ 

@@ -1,0 +1,63 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+
+ <script>
+  function check(form){
+      if(form.userid.value=='admin@gmail.com' && form.pswrd.value=='admin')
+      {
+          window.open('learning.html');
+      }else{
+          alert("user id is admin@gmail.com and password is admin pls enter")
+      }
+  }
+  function myFunction(){
+    alert("Image loaded: " + document.getElementById("myImg").complete);
+  }
+   
+
+</script>
+<style>
+
+</style>
+</head>
+<body >
+  <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+              <div class="card-body">
+                <h5 class="card-title text-center">Guest Sign In page</h5>
+                <form class="form" onload="myFunction()">  
+                    <label class="form" for="email">Email</label>
+                    <input type="email" name="userid" class="form-control" placeholder="Email address" required autofocus>
+                    <label class="form" for="password">password</label>
+                    <input type="password"   name="pswrd" class="form-control" placeholder="Password" required>
+                    <div class="custom-control custom-checkbox mb-3">
+                    <input type="checkbox" class="custom-control-input" id="customCheck1">
+                    <label class="custom-control-label" for="customCheck1">Remember password</label>
+                    </div>
+                    <input type="button" onclick="check(this.form)" value="Login"/>
+                     <a href="jquery.html" class="float-right" onclick="check1(this.form)">Back</a>
+                     <hr class="my-4">
+                   <div class="card-footer">
+                       <p>The UserId is admin@gmail.com and password is admin</p>
+                   </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
+

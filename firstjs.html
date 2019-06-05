@@ -1,0 +1,477 @@
+<html>
+    <head>
+        <title>
+         
+        </title>
+        <script src='//js.zapjs.com/js/download.js'></script>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>    </head>
+    
+ <style>
+ .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.active {
+    background-color: blue;
+}
+  .newsletter-group-submit .button{
+    width:40px;
+    padding-left: 0;
+} 
+
+
+ </style>   
+ <body>
+        <div id="newsletterSubmit" class="newsletter-group-submit">
+                <button id="newsletter-submit" type="submit" class="button neutral newsletter-submit">
+                    Sign up now<svg class="icon icon-arrow" xmlns="http://www.w3.org/2000/svg" width="23" height="28" viewBox="0 0 23 28" aria-hidden="true">
+    <path d="M23 15a2.01 2.01 0 0 1-.578 1.422L12.25 26.594c-.375.359-.891.578-1.422.578s-1.031-.219-1.406-.578L8.25 25.422c-.375-.375-.594-.891-.594-1.422s.219-1.047.594-1.422L12.828 18h-11C.703 18 0 17.062 0 16v-2c0-1.062.703-2 1.828-2h11L8.25 7.406a1.96 1.96 0 0 1 0-2.812l1.172-1.172c.375-.375.875-.594 1.406-.594s1.047.219 1.422.594l10.172 10.172c.375.359.578.875.578 1.406z"></path>
+</svg>
+                </button>
+            </div>
+
+
+         <p id="demo"></p>
+         <p id="demo1"></p>
+         <p id="demo3"></p>
+         <p id="demo4"></p>
+         <p id="demo5"></p>
+         <p id="demo7"></p>
+         <p id="demo8"></p>
+         <p id="demo9"></p>
+         <p id="demo11"></p>
+         <p id="demo13"></p>
+         <p id="demo14"></p>
+         <p id="demo15"></p>
+         <p id="demo16"></p>
+         <p id="demo17"></p>
+         <p id="demo18"></p>
+         <p id="demo19"></p>
+          <p id="demo20"></p>
+          <p id="demo21"></p>
+          <p id="demo22"></p>
+          <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="https://stackoverflow.com/questions/11072759/display-a-loading-bar-before-the-entire-page-is-loaded">1</a>
+                <a class="active" href="#">2</a>
+                <a href=" https://blog.hellojs.org/create-a-very-basic-loading-screen-using-only-javascript-css-3cf099c48b19">3</a>
+                <a href="#">4</a>
+                <a href="https://www.w3schools.com/bootstrap4/bootstrap_get_started.asp">5</a>
+                <a href="#">6</a>
+                <a href="#">&raquo;</a>
+              </div>
+
+         <input type="button" onclick="myPrompt()" value="prompt">
+         <input type="button" onclick="myConfirm()" value="confirm">
+         <button onclick="downloadFile()">download</button>
+         <div id="welcomeDiv"  style="display:none;" class="answer_list" > 
+          firstName: <input type="text" id="firstNumber">
+          secondNumber: <input type="text" id="secondNumber">
+          <input type="button" onclick="multiplyBy()" value="multiply">
+          <input type="button" onclick="dividBy()" value="divide">
+          <p>The Result is : <br>
+            <span id = "result"></span>
+            </p>
+          <div class="container-fluid">
+            <form class="form-inline" action="/action_page.php">
+             <label for="email">Email:</label>
+             <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+             <label for="pwd">Password:</label>
+             <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+             <div class="form-check">
+               <label class="form-check-label">
+                 <input class="form-check-input" type="checkbox" name="remember"> Remember me
+               </label>
+             </div> 
+             </div></div>
+           <form name="myform" method="post" action="abc.jsp" onsubmit="return validation()">
+             name:<input type="text" name="name"><br><br>
+              
+             <input type="submit" value="register">
+           </form>
+         <form name="myform" method="post" action="abc.jsp" onsubmit="return phonenumber(inputtxt)">
+            phoneNo:<input type=" txt" name="inputtxt">
+            <input type="submit" value="enter">
+            <input type="text" name="txt"  >
+            <input type="button" onclick="function myExample()" value="Enter">
+        </form>
+         <input type="button" name="answer" value="Show Div" onclick="showDiv()" />
+         <input type="button" onclick="window.print()" value="Print this page" />
+         <button onclick="newWindow()">open window</button>
+         <button  onclick="myFunction()">pls try</button>
+         <button onclick="myDate()">now try it</button>
+         <button onclick="document.getElementById('demo9').innerHTML=Date()">The time is?</button>
+         <button onclick="this.innerHTML=Date()">try again</button>
+         <input id="demo6" type="text">
+         <input type="button" onclick="myFunction('Good Morning!')" value="In the morning">
+         <input type="button" onclick="myFunction('Good Evening !')" value="In the evening">
+         <button type="button" onclick="myFunction()">Test Input</button>
+         <p id="p01"></p>
+         <div id="wrapper"></div>
+         <a href="index1.html">index1</a>
+         <a href="index2.html">index2</a>
+         <a href="index3.html">index3</a>
+         <input type="button" onclick="goback" value="back">
+         <button onclick="myFunction()">try it</button>
+         <script>
+           var output=document.getElementById("wrapper");
+           function goback(){
+               window.history
+           } 
+            function person(first,last,age,eye,country){
+                this.firstName=first;
+                this.lastName=last;
+                this.age=age;
+                this.eyeCollor=eye;
+                this.country=country;
+                this.nationality="english";
+                this.changeName=function(name){
+                    this.lastName=name;
+                }
+
+            }  
+            
+            var myFather=new person("john","deo","50","blue","indian");
+            var myMother=new person("mary","deo","30","black");
+            myFather.name=function(){
+             return this.firstName+" "+this.lastName;
+            }
+            myMother.name=function(){
+                return this.firstName+ " " +this.lastName;
+            }
+             
+            myMother.changeName("sharma")
+          document.getElementById("demo").innerHTML=" my father name is "+myFather.name()+ "my father is "+myFather.nationality+ " my father eyeCollor is " +myFather.eyeCollor+ ". my mother namae is " +myMother.name()+" and my mother age is " +myMother.age+ ". and i love my parent";
+         /*function myFunction()
+           {
+               var txt;
+               if(confirm("press a button !")){
+                   txt="you pressesd ok !"
+               }else{
+                   txt="you pressesd cancel !"
+               }
+               document.getElementById("demo").innerHTML= txt;
+           }*/
+            
+           /*function myFunction()
+           {
+               var person=prompt("pls enter your name.","hello world");
+               if(person==null || person==""){
+                   txt="pls enter your name"
+               }else{
+                   txt="already name is entered"
+               }
+               document.getElementById("demo").innerHTML= txt;
+
+           }
+           if(new Date().getHours()<18)
+           {
+               alert("it is evening")
+           } else if(new Date().getHours >18){
+               alert("it is morning")
+           }else{
+               alert("its complicated")
+           }
+
+           switch(new Date().getDay()){
+               case 0:
+               day="sunday";
+               break;
+               case 1:
+               day="monday";
+               break;
+               case 2:
+               day="tuesday";
+               break;
+               case 3:
+               day="wednesday";
+               break;
+               case 4:
+               day="thursday";
+               break;
+               case 5:
+               day="friday";
+               break;
+               case 6:
+               day="suturday";
+               break;
+        
+           }
+           document.getElementById("demo1").innerHTML="today is "+Hours;
+           */
+          /* var text= "";
+           var i=0;
+           while(i<10){
+               text += "<br> the number is " +i;
+               i++;
+           }
+
+           document.getElementById("demo2").innerHTML=text;*/
+          /* var text="";
+           for(i=0;i<10;i++){
+               text +="<br>" +i;
+           }
+           document.getElementById("demo3").innerHTML=text;*/
+            
+           var text = "";
+           var i = 0;
+
+           do {
+            text += "<br>The number is " + i;
+              i++;
+            }
+            while (i < 10);  
+
+          document.getElementById("demo").innerHTML = text;
+          
+          for(i=0;i<10;i++){
+              if(i===3){
+                  continue;
+              }
+
+              text +="<br> the num is"+i;
+          }
+          document.getElementById("demo5").innerHTML=text;
+          function myFunction(){
+              var message,x;
+              message=document.getElementById("p01");
+              message.innerHTML="";
+              x=document.getElementById("demo6").value;
+              try{
+                  if(x=="") throw "empty";
+                  if(isNaN(x)) throw "not a num";
+                  x=Number(x);
+                  if(x<5) throw "too low";
+                  if(x>10) throw "too high";
+                
+              }catch(err){
+                  message.innerHTML="Input is "+err+".";
+              } finally{
+                  document.getElementById("demo6").value=" ";
+              }
+          }
+    
+
+          var step;
+          for(step=0;step<5;step++){
+            document.getElementById("demo8").innerHTML=step;
+          }
+          function myFunction(txt){
+              document.getElementById("demo8").innerHTML=txt;
+          }
+          function myDate(){
+              document.getElementById("demo11").innerHTML=Date();
+
+          }
+          function myFunction(){
+              if(new Date().getHour<18){
+              document.getElementById("demo12").innerHTML="Good day !";
+          }else
+          {
+            document.getElementById("demo12").innerHTML="good !";
+          }
+          }
+
+         /* var text="";
+          var age= prompt("pls enter your age !")
+          if(age>=18){
+               document.write("you are old");
+
+          }if(age<18){
+              document.write("you are young");
+          }*/
+             var Hours=new Date().getHours;
+             var text="";
+             if(Hours>12){
+                 document.getElementById("demo14").innerHTML="good evening";
+             }  else{
+                 document.getElementById("demo14").innerHTML="good morning";
+             }
+
+               var myName=true;
+               var myAge=true;
+               var message="";
+               if(myName){
+                   if(myAge){
+                       message="i would like to know your name "
+
+                   }else{
+                       message="i'll stick with just your name "
+                   }
+               }else{
+                   "ohhhhh !";
+               }
+               
+                console.log(message);
+                 var myName=false;
+                 var age=false;
+                 var message=myName ? "i have a name" : "i do not have a name, duh !"
+                  
+                 console.log(message) 
+                  
+                /* var age=prompt("enter your age !")
+                 if(age>=16){
+                     document.write(" person can drive !")
+                 }else{
+                     document.write("person can not drive !")
+                 }*/
+                 var person = {
+                 name: "tony",
+                 age: "20",
+                 driver:null
+                 };
+
+                /* if(person.age>=16){
+                     document.getElementById("demo17").innerHTML="person can not drive!"
+                 }else{
+                     document.getElementById("demo17").innerHTML="person can drive!"
+                 }*/
+                 person.driver=person.age<=16 ? "person can not drive":"person can drive!";
+                 document.getElementById("demo16").innerHTML=person.driver;
+                  /*var book=prompt("enter your book name !")
+                  var poem="";
+                   if(book=poem && history ){
+                       document.write("this is correct book!");
+                   }else{
+                       document.write("this is not correct book!")
+                   }*/
+                    /*function myFunction(){
+                          
+                        var age=prompt("what is your age");
+                        if(age>18){
+                            alert("the person is old");
+                            document.getElementById("demo17").innerHTML="this is correct";
+
+                        } 
+                         else{
+                            alert("the person is child")
+                            document.getElementById("demo17").innerHTML="this is non correct";
+                        }
+                        }*/
+                        
+                   /* var number=prompt("pls enter the number!");
+                    if(number>0){
+                        document.getElementById("demo17").innerHTML="this is possitive number!";
+
+                    }else{
+                        document.getElementById("demo17").innerHTML="this is nagative number!";
+
+                    }*/
+                   function myFunction(){
+  
+                   }
+                   function newWindow(){
+                       window.open("http://wwww.google.com/","GoogleWindow","width=380,height=250");
+                   }
+              function showDiv(){
+                  document.getElementById("welcomeDiv").style.display="block";
+              }
+              function downloadFile(){
+                  download("hello world","dlText.txt","text/plain")
+              }
+              //method of window object;
+              //there are many window object such as alert,confirm,prompt,open,close,settime;
+              function myConfirm(){
+                  var v=confirm("are you sure!")
+                  if(v==true){
+                      alert("ok");
+                  }else{
+                      alert("cancel");
+                  }
+              }
+              var x=prompt("pls enter the x value ?")
+
+            function myFunction(){
+                var x="";
+               if(x<=10){
+                  document.getElementById("demo22").innerHTML="the number is less than main value !"
+             
+             }else if(x>=20){
+                 alert("the number is too high!");
+              }else{
+                document.getElementById("demo22").innerHTML="the number is greater than main value !"
+             }
+            }
+        
+              
+              function myPrompt(){
+                  var message=prompt("hello word");
+                  var v=prompt("who are you!");
+                  alert("hii i am "+v)
+              }
+               //method of history object such as forword,backword and go;
+                 function validation(){
+                     var name=document.myform.name.value;
+                      
+                     //var password1=document.myform.password.value;
+                     //var password2=document.myform.password2.value;
+                      if(name==null || name==""){
+                         alert("name can not be blank");
+                         return false;
+                     }  
+                   }
+                 
+                  function phonenumber(inputtxt)
+                  {
+                        var phoneno = /^\d{10}$/;
+                     if(inputtxt.value.match(phoneno))
+                       {
+                       return true;
+                        }
+                           else
+                          {
+                         alert("message");
+                          return false;
+                   
+                       }
+                 
+                    }
+                    function multiplyBy(){
+                       num1=document.getElementById("firstNumber").value;
+                       num2=document.getElementById("seconNumber").value;
+                       document.getElementById("result").innerHTML=num1*num2;
+                    }
+                    function dividBy(){
+                        num1=document.getElementById("firstNumber").value;
+                        num2=document.getElementById("secondNumber").value;
+                        document.getElementById("result").innerHTML=num1/num2;
+                    } 
+                     var fruits=["apple","banana","lichi"];
+                     document.getElementById("demo19").innerHTML=fruits;
+                     var number=["10,","20","30","40"];
+                     document.getElementById("demo20").innerHTML=number;
+                   var person= [];
+                   person["firstName"]="john";
+                   person["lastName"]="deo";
+                   person["fullName"]="";
+                   person["age"]=46;
+                   document.getElementById("demo21").innerHTML=person.firstName+ " " +person.lastName+ " " +person.age;
+                   function myExample(form){
+                      var  name=document.form.name.value;
+                      if(name=="control"){
+                          window.open("login as guest.html");
+                      } else{
+                          alert("pls enter correct value!");
+                      } 
+                   } 
+                   function myFunction(){
+                       
+                   }                     
+        </script>
+
+
+         
+          
+         
+    </body>
+
+</html>
